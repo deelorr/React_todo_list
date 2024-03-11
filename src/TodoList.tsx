@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import TodoItem from './TodoItem';
 
 interface ITodo {
@@ -22,7 +22,7 @@ const TodoList: React.FC = () => {
     {
       id: 3,
       text: 'Link To-do List App to Github',
-      completed: false
+      completed: true
     }
   ]);
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface ITodo {
   id: number;
   text: string;
